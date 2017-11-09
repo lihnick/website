@@ -1,0 +1,67 @@
+body, html {
+	background: #ccdec1; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #f5f5dc, #ccdec1); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #f5f5dc, #ccdec1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1, h2, h3, h4, li, p, a {
+	font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+	margin: 32px 0px;
+	font-size: 64px;
+}
+h2 {
+	margin: 20px 0px;
+	font-size: 28px;
+}
+h3 {
+	margin: 10px 0px;
+	font-size: 20px;
+}
+
+h4 {
+}
+li {
+}
+p {
+}
+
+nav a {
+	font-size: 18px;
+	margin: 5px 10px;
+	padding: 5px 10px;
+}
+a, a:visited, a:active {
+	color: #026c26;
+	text-decoration: none;
+} 
+a:hover {
+	color: #3FFFA0;
+} 
+header {
+	width: 100%;
+	text-align: center;
+}
+td {
+	padding: 2px 50px;
+}
+footer {
+	margin: 24px 0px;
+	padding: 4px 0px;
+	width: 100%
+}
+
+.column_box {
+	margin: 0;
+	height: 64px;
+	columns: 3;
+	column-gap: 100px;
+}
+
+@media (min-width: 800px) { 
+	.container {
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

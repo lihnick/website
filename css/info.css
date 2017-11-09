@@ -1,0 +1,68 @@
+h1, h2, h3, a, p {
+	font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+	margin: 32px 0px;
+	font-size: 64px;
+}
+h2 {
+	margin: 20px 0px;
+	font-size: 28px;
+}
+h3 {
+	margin: 10px 0px;
+	font-size: 20px;
+}
+img {
+	// display: inline;
+	// top: 0;
+	margin-left: 50%;
+	// bottom: 0;
+}
+h4 {
+}
+li {
+}
+p {
+}
+
+nav a {
+	font-size: 18px;
+	margin: 5px 10px;
+	padding: 5px 10px;
+}
+a {
+	text-decoration: none;
+}
+a, a:visited, a:active {
+	color: #026c26;
+} 
+a:hover {
+	color: #3FFFA0;
+} 
+header {
+	width: 100%;
+	text-align: center;
+}
+section, footer {
+	margin: 10px 20px;
+}
+
+//
+// 		Responsive Web 
+//
+.container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+.content {
+	margin: auto;
+	width: 70%;
+}
+@media (min-wdith: 800px) {
+	.content {
+		width: 100%;
+	}
+}
