@@ -34,6 +34,7 @@ nav a {
 	padding: 5px 10px;
 }
 a, a:visited, a:active {
+	margin: 0px 10px;
 	color: #026c26;
 	text-decoration: none;
 } 
